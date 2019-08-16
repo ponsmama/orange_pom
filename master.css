@@ -25,7 +25,7 @@ a {
 .top-wrapper{
   display:flex;
   align-items: cover;
-  background-image: url('../Image/backphoto.png');
+  background-image: url('backphoto.png');
   background-size: cover;
   max-height:800px;
 }
