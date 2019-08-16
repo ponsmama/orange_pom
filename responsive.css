@@ -1,0 +1,31 @@
+/*タブレット用*/
+@media all and (max-width:1000px){
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+  .top-wrapper p{
+    font-size: 18px;
+    padding-top: 70px;
+  }
+
+}
+/*携帯用*/
+@media all and (max-width:670px){
+  .top-wrapper h1{
+    font-size: 28px;
+  }
+  .btn-wrapper{
+    font-size: 10px;
+  }
+  .top-wrapper p{
+    font-size: 12px;
+    padding-top: 50px;
+  }
+  .recents img, .recomend img{
+    width:100%;
+    object-fit: scale-down;
+    border-radius: 45px;
+    padding: 15px 10px;
+  }
+
+}
