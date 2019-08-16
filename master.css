@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+div{
+  display:block;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*ここから書き始めよう*/
+.top-wrapper{
+  display:flex;
+  align-items: cover;
+  background-image: url('../Image/backphoto.png');
+  background-size: cover;
+  max-height:800px;
+}
+.container{
+  max-width: 1170px;
+  width:100%;
+  margin:0 auto;
+  padding:0 15px;
+  text-align: center;
+}
+.top-wrapper h1{
+  font-family:  'Gochi Hand', cursive;
+ font-size: 60px;
+ letter-spacing: 5px;
+ color:white;
+ margin-top: 120px;
+ opacity:0.7;
+}
+.top-wrapper p{
+  color:rgba(238, 124, 225, 0.8);
+  font-size:25px;
+  padding-top: 100px;
+}
+.btn-wrapper{
+  display: inline-block;
+  margin: 10px 10px 15px 0;
+}
+
+/*headerここから*/
+header{
+  background-color:rgba(252, 231, 182, 0.5);
+  width:100%;
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+.header-logo{
+  float:left;
+  padding:0px 70px 0px 15px;
+}
+.logo{
+  width:124px;
+  height:inherit;
+}
+.menus a{
+ float:left;
+ height:inherit;
+ text-align: center;
+ color:rgb(152, 74, 203);
+ font-weight: bold;
+ padding:20px 40px 5px 40px;
+}
+.menu:hover{
+  cursor:pointer;
+  color:blue;
+}
+/*最近のイラストここから*/
+.contants-wrapper{
+  background-color: rgba(84, 159, 246, 0.5);
+  text-align: center;
+  color:rgb(151, 100, 210);
+  padding:15px 15px;
+}
+.recents img{
+  float: left;
+  width:50%;
+  object-fit: scale-down;
+  border-radius: 45px;
+  padding-left: 15px;
+}
+
+.continued-wrapper{
+  background-color: rgba(84, 159, 246, 0.5);
+  text-align: center;
+}
+.continued-wrapper h2{
+  font-size: 15px;
+  color:white;
+}
+.recomend img{
+  float: left;
+  width:25%;
+  object-fit: scale-down;
+  padding: 15px 5px;
+  border-radius: 45px;
+}
+.footer-container{
+  background: linear-gradient(-135deg, #05FBFF, #b0c4de 70%);
+  text-align: center;
+ padding:10px 0;
+}
+.clear{
+  clear:left;
+}
